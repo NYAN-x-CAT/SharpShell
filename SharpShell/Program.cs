@@ -11,7 +11,7 @@ namespace SharpShell
 {
     class Program
     {
-		static void Main(string[] args)
+        static void Main(string[] args)
         {
             // https://github.com/TheWover/donut
             // .NET to shellcode

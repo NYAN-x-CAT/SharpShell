@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SharpShell.Win32
 {
-   internal static class DelegateAPI
+    internal static class DelegateAPI
     {
         internal delegate IntPtr DelegateOpenProcess(uint dwDesiredAccess, bool bInheritHandle, uint dwProcessId);
         internal delegate IntPtr DelegateVirtualAllocEx(IntPtr hProcess, IntPtr lpAddress, uint dwSize, UInt32 flAllocationType, UInt32 flProtect);
